@@ -1,0 +1,12 @@
+D:\GitHub\IOCDemo2\IOC\IOCService\bin\Debug\net8.0\IOCService.deps.json
+D:\GitHub\IOCDemo2\IOC\IOCService\bin\Debug\net8.0\IOCService.dll
+D:\GitHub\IOCDemo2\IOC\IOCService\bin\Debug\net8.0\IOCService.pdb
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\IOCService.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\IOCService.AssemblyInfoInputs.cache
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\IOCService.AssemblyInfo.cs
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\IOCService.csproj.CoreCompileInputs.cache
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\IOCService.sourcelink.json
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\IOCService.dll
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\refint\IOCService.dll
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\IOCService.pdb
+D:\GitHub\IOCDemo2\IOC\IOCService\obj\Debug\net8.0\ref\IOCService.dll

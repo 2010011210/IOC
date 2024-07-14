@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IOCDemoProject/1.0.0": {
+        "dependencies": {
+          "IOCService": "1.0.0"
+        },
+        "runtime": {
+          "IOCDemoProject.dll": {}
+        }
+      },
+      "IOCService/1.0.0": {
+        "runtime": {
+          "IOCService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IOCDemoProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IOCService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

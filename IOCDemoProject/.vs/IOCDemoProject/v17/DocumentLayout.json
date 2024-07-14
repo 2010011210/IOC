@@ -1,0 +1,368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo2\\ioc\\iocservice\\tomiocservicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\huaweiphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\huaweiphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\applephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\applephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\nokiaphnoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\nokiaphnoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\imobilephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\imobilephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\xiaomi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\xiaomi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo2\\ioc\\iocservice\\attribute\\selectconstructorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo2\\ioc\\iocservice\\iocservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\iandriod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\iandriod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\iocdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:iocdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\iphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\iphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\ipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\ipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\iharmonry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\iharmonry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo2\\ioc\\iocservice\\itomiocservicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 875,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TomIOCServiceCollection.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs",
+              "RelativeDocumentMoniker": "..\\IOCService\\TomIOCServiceCollection.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs",
+              "RelativeToolTip": "..\\IOCService\\TomIOCServiceCollection.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:22:04.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Power.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\Power.cs",
+              "RelativeDocumentMoniker": "Model\\Power.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\Power.cs",
+              "RelativeToolTip": "Model\\Power.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvx0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:07:08.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAndriod.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IAndriod.cs",
+              "RelativeDocumentMoniker": "Interface\\IAndriod.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IAndriod.cs",
+              "RelativeToolTip": "Interface\\IAndriod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:32:35.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HuaWeiPhone.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\HuaWeiPhone.cs",
+              "RelativeDocumentMoniker": "Model\\HuaWeiPhone.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\HuaWeiPhone.cs",
+              "RelativeToolTip": "Model\\HuaWeiPhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:32:16.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMobilePhone.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IMobilePhone.cs",
+              "RelativeDocumentMoniker": "Interface\\IMobilePhone.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IMobilePhone.cs",
+              "RelativeToolTip": "Interface\\IMobilePhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:33:40.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAzwBsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:17:40.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "XiaoMi.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\XiaoMi.cs",
+              "RelativeDocumentMoniker": "Model\\XiaoMi.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\XiaoMi.cs",
+              "RelativeToolTip": "Model\\XiaoMi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:41:56.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NOKIAPhnoe.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\NOKIAPhnoe.cs",
+              "RelativeDocumentMoniker": "Model\\NOKIAPhnoe.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\NOKIAPhnoe.cs",
+              "RelativeToolTip": "Model\\NOKIAPhnoe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:39:26.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplePhone.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\ApplePhone.cs",
+              "RelativeDocumentMoniker": "Model\\ApplePhone.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\ApplePhone.cs",
+              "RelativeToolTip": "Model\\ApplePhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:38:45.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOCDemoProject",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
+              "RelativeDocumentMoniker": "IOCDemoProject.csproj",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
+              "RelativeToolTip": "IOCDemoProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-14T10:30:32.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOCService",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj",
+              "RelativeDocumentMoniker": "..\\IOCService\\IOCService.csproj",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj",
+              "RelativeToolTip": "..\\IOCService\\IOCService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-14T13:13:20.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SelectConstructorAttribute.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
+              "RelativeDocumentMoniker": "..\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
+              "RelativeToolTip": "..\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T13:13:45.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPhone.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IPhone.cs",
+              "RelativeDocumentMoniker": "Interface\\IPhone.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IPhone.cs",
+              "RelativeToolTip": "Interface\\IPhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:32:50.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPower.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IPower.cs",
+              "RelativeDocumentMoniker": "Interface\\IPower.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IPower.cs",
+              "RelativeToolTip": "Interface\\IPower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:06:07.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IHarmonry.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IHarmonry.cs",
+              "RelativeDocumentMoniker": "Interface\\IHarmonry.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IHarmonry.cs",
+              "RelativeToolTip": "Interface\\IHarmonry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:40:09.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ITomIOCServiceCollection.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\ITomIOCServiceCollection.cs",
+              "RelativeDocumentMoniker": "..\\IOCService\\ITomIOCServiceCollection.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\ITomIOCServiceCollection.cs",
+              "RelativeToolTip": "..\\IOCService\\ITomIOCServiceCollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:21:30.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 355,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 223,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
