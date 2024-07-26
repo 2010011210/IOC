@@ -81,9 +81,45 @@ namespace IOCService
                 parametersList.Add(target);
             }
 
-            var result = Activator.CreateInstance(type, parametersList.ToArray());
+            var objInstance = Activator.CreateInstance(type, parametersList.ToArray());
             // var result2 = constructor.Invoke(parametersList.ToArray()); //或者通过构造函数创建
-            return result;
+
+            #region 3 属性注入
+            // 3.1 获取需要属性注入的类型(属性带有PropertyInject特性的)
+            var propertyTypes = type.GetProperties().Where(p => p.IsDefined(typeof(PropertyInjectAttribute), true));
+
+            foreach (var propertyInfo in propertyTypes) 
+            {
+                Type propertyType = propertyInfo.PropertyType;
+                Type propertyImplementType = typeDictionary[propertyType.FullName];
+                object propertyInstance = GetService(propertyImplementType);  // 属性的实例
+                propertyInfo.SetValue(objInstance, propertyInstance);    // 给对象objInstance的属性赋值
+            }
+
+            #endregion
+
+            #region 方法注入  //MethodInject
+            MethodInfo[] allMethods = type.GetMethods();
+            List<MethodInfo> injectMethods = allMethods.Where(m => m.IsDefined(typeof(MethodInjectAttribute), true)).ToList();
+            foreach (var method in injectMethods) 
+            {
+                List<object> methodParamList = new List<object>();
+                // 获取方法参数
+                ParameterInfo[] methodParameters = method.GetParameters();
+                foreach (var param in methodParameters) 
+                {
+                    Type parameterType = param.ParameterType;
+                    Type paramterImplementType = typeDictionary[parameterType.FullName]; 
+                    object mParamInstance = GetService(paramterImplementType);  // 类型的构造函数可能还需要其他类型的参数，需要递归调用
+                    methodParamList.Add(mParamInstance);
+                }
+                // 触发方法 ,把对象注入
+                method.Invoke(objInstance, methodParamList.ToArray());
+            }
+
+            #endregion
+
+            return objInstance;
 
 
         }

@@ -1,66 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\",
+  "WorkspaceRootPath": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo2\\ioc\\iocservice\\tomiocservicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo3\\ioc\\iocservice\\tomiocservicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\model\\power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo3\\ioc\\iocservice\\attributemodel\\methodinjectattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\huaweiphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\huaweiphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\applephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\applephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\nokiaphnoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\model\\nokiaphnoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\nokiaphnoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\imobilephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo3\\ioc\\iocservice\\attributemodel\\propertyinjectattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\model\\huaweiphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\huaweiphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\model\\applephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\applephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo3\\ioc\\iocservice\\attributemodel\\selectconstructorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\interface\\imobilephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\imobilephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\model\\xiaomi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\model\\xiaomi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:model\\xiaomi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo2\\ioc\\iocservice\\attribute\\selectconstructorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo2\\ioc\\iocservice\\iocservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\iandriod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\interface\\iandriod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\iandriod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\iocdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\iocdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:iocdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\iphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\interface\\iphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\iphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\ipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\interface\\ipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\ipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo2\\ioc\\iocdemoproject\\interface\\iharmonry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|d:\\github\\iocdemo3\\ioc\\iocdemoproject\\interface\\iharmonry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}|IOCDemoProject.csproj|solutionrelative:interface\\iharmonry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D100AA3E-6D0D-496A-9208-C81ED5D54B29}|..\\IOCService\\IOCService.csproj|d:\\github\\iocdemo2\\ioc\\iocservice\\itomiocservicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\ITomIOCServiceCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -128,100 +140,74 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TomIOCServiceCollection.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\TomIOCServiceCollection.cs",
               "RelativeDocumentMoniker": "..\\IOCService\\TomIOCServiceCollection.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\TomIOCServiceCollection.cs",
               "RelativeToolTip": "..\\IOCService\\TomIOCServiceCollection.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T10:22:04.215Z",
+              "WhenOpened": "2024-07-26T05:29:10.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Power.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\Power.cs",
-              "RelativeDocumentMoniker": "Model\\Power.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\Power.cs",
-              "RelativeToolTip": "Model\\Power.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvx0AAAAIAAAA",
+              "DocumentIndex": 5,
+              "Title": "PropertyInjectAttribute.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\AttributeModel\\PropertyInjectAttribute.cs",
+              "RelativeDocumentMoniker": "..\\IOCService\\AttributeModel\\PropertyInjectAttribute.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\AttributeModel\\PropertyInjectAttribute.cs",
+              "RelativeToolTip": "..\\IOCService\\AttributeModel\\PropertyInjectAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T11:07:08.778Z",
+              "WhenOpened": "2024-07-26T05:23:20.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IAndriod.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IAndriod.cs",
-              "RelativeDocumentMoniker": "Interface\\IAndriod.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IAndriod.cs",
-              "RelativeToolTip": "Interface\\IAndriod.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T10:32:35.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "HuaWeiPhone.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\HuaWeiPhone.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\HuaWeiPhone.cs",
               "RelativeDocumentMoniker": "Model\\HuaWeiPhone.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\HuaWeiPhone.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\HuaWeiPhone.cs",
               "RelativeToolTip": "Model\\HuaWeiPhone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T10:32:16.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMobilePhone.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IMobilePhone.cs",
-              "RelativeDocumentMoniker": "Interface\\IMobilePhone.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IMobilePhone.cs",
-              "RelativeToolTip": "Interface\\IMobilePhone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T10:33:40.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Program.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAzwBsAAAAQAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T10:17:40.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "XiaoMi.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\XiaoMi.cs",
-              "RelativeDocumentMoniker": "Model\\XiaoMi.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\XiaoMi.cs",
-              "RelativeToolTip": "Model\\XiaoMi.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAwAAAAFAAAA",
+              "DocumentIndex": 1,
+              "Title": "Power.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\Power.cs",
+              "RelativeDocumentMoniker": "Model\\Power.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\Power.cs",
+              "RelativeToolTip": "Model\\Power.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T10:41:56.631Z",
+              "WhenOpened": "2024-07-14T11:07:08.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "NOKIAPhnoe.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\NOKIAPhnoe.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\NOKIAPhnoe.cs",
               "RelativeDocumentMoniker": "Model\\NOKIAPhnoe.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\NOKIAPhnoe.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\NOKIAPhnoe.cs",
               "RelativeToolTip": "Model\\NOKIAPhnoe.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,112 +216,180 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "MethodInjectAttribute.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\AttributeModel\\MethodInjectAttribute.cs",
+              "RelativeDocumentMoniker": "..\\IOCService\\AttributeModel\\MethodInjectAttribute.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\AttributeModel\\MethodInjectAttribute.cs",
+              "RelativeToolTip": "..\\IOCService\\AttributeModel\\MethodInjectAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:02:31.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TomIOCServiceCollection.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs",
+              "RelativeToolTip": "..\\..\\..\\IOCDemo2\\IOC\\IOCService\\TomIOCServiceCollection.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:22:04.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ApplePhone.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\ApplePhone.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\ApplePhone.cs",
               "RelativeDocumentMoniker": "Model\\ApplePhone.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Model\\ApplePhone.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\ApplePhone.cs",
               "RelativeToolTip": "Model\\ApplePhone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T10:38:45.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IOCDemoProject",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
-              "RelativeDocumentMoniker": "IOCDemoProject.csproj",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
-              "RelativeToolTip": "IOCDemoProject.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-14T10:30:32.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IOCService",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj",
-              "RelativeDocumentMoniker": "..\\IOCService\\IOCService.csproj",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj",
-              "RelativeToolTip": "..\\IOCService\\IOCService.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-14T13:13:20.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "SelectConstructorAttribute.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
-              "RelativeDocumentMoniker": "..\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
-              "RelativeToolTip": "..\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAAAAAA",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\AttributeModel\\SelectConstructorAttribute.cs",
+              "RelativeDocumentMoniker": "..\\IOCService\\AttributeModel\\SelectConstructorAttribute.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\AttributeModel\\SelectConstructorAttribute.cs",
+              "RelativeToolTip": "..\\IOCService\\AttributeModel\\SelectConstructorAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T13:13:45.76Z",
+              "WhenOpened": "2024-07-26T05:24:08.951Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMobilePhone.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IMobilePhone.cs",
+              "RelativeDocumentMoniker": "Interface\\IMobilePhone.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IMobilePhone.cs",
+              "RelativeToolTip": "Interface\\IMobilePhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:33:40.875Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "IPhone.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IPhone.cs",
-              "RelativeDocumentMoniker": "Interface\\IPhone.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IPhone.cs",
-              "RelativeToolTip": "Interface\\IPhone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAFAAAA",
+              "Title": "IAndriod.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IAndriod.cs",
+              "RelativeDocumentMoniker": "Interface\\IAndriod.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IAndriod.cs",
+              "RelativeToolTip": "Interface\\IAndriod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T10:32:50.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T10:32:35.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "XiaoMi.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\XiaoMi.cs",
+              "RelativeDocumentMoniker": "Model\\XiaoMi.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Model\\XiaoMi.cs",
+              "RelativeToolTip": "Model\\XiaoMi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:41:56.631Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IPower.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IPower.cs",
-              "RelativeDocumentMoniker": "Interface\\IPower.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IPower.cs",
-              "RelativeToolTip": "Interface\\IPower.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAsAAAAXAAAA",
+              "Title": "IOCDemoProject.csproj",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
+              "RelativeDocumentMoniker": "IOCDemoProject.csproj",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
+              "RelativeToolTip": "IOCDemoProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-14T10:30:32.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOCService.csproj",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj",
+              "RelativeToolTip": "..\\..\\..\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-14T13:13:20.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SelectConstructorAttribute.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
+              "RelativeToolTip": "..\\..\\..\\IOCDemo2\\IOC\\IOCService\\Attribute\\SelectConstructorAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T11:06:07.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T13:13:45.76Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "IHarmonry.cs",
-              "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IHarmonry.cs",
-              "RelativeDocumentMoniker": "Interface\\IHarmonry.cs",
-              "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\Interface\\IHarmonry.cs",
-              "RelativeToolTip": "Interface\\IHarmonry.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAAAAAA",
+              "Title": "IPhone.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IPhone.cs",
+              "RelativeDocumentMoniker": "Interface\\IPhone.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IPhone.cs",
+              "RelativeToolTip": "Interface\\IPhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T10:40:09.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T10:32:50.311Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "IPower.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IPower.cs",
+              "RelativeDocumentMoniker": "Interface\\IPower.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IPower.cs",
+              "RelativeToolTip": "Interface\\IPower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:06:07.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IHarmonry.cs",
+              "DocumentMoniker": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IHarmonry.cs",
+              "RelativeDocumentMoniker": "Interface\\IHarmonry.cs",
+              "ToolTip": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\Interface\\IHarmonry.cs",
+              "RelativeToolTip": "Interface\\IHarmonry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T10:40:09.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "ITomIOCServiceCollection.cs",
               "DocumentMoniker": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\ITomIOCServiceCollection.cs",
-              "RelativeDocumentMoniker": "..\\IOCService\\ITomIOCServiceCollection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\IOCDemo2\\IOC\\IOCService\\ITomIOCServiceCollection.cs",
               "ToolTip": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\ITomIOCServiceCollection.cs",
-              "RelativeToolTip": "..\\IOCService\\ITomIOCServiceCollection.cs",
+              "RelativeToolTip": "..\\..\\..\\IOCDemo2\\IOC\\IOCService\\ITomIOCServiceCollection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T10:21:30.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T10:21:30.194Z"
             }
           ]
         },
         {
-          "DockedWidth": 355,
+          "DockedWidth": 251,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -353,7 +407,7 @@
           ]
         },
         {
-          "DockedWidth": 223,
+          "DockedWidth": 251,
           "SelectedChildIndex": -1,
           "Children": [
             {

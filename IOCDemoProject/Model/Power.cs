@@ -1,4 +1,5 @@
 ﻿using IOCDemoProject.Interface;
+using IOCService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,10 @@ namespace IOCDemoProject.Model
         public  IMobilePhone _mobilePhone { get; set; }
         public IAndriod _andriod { get; set; }
 
+        [PropertyInject]
+        public IHarmonry huaweiPhone { get; set; }
+
+        public IPhone phone { get; set; }
 
         //public Power()
         //{
@@ -28,5 +33,12 @@ namespace IOCDemoProject.Model
             this._mobilePhone = mobilePhone;
             this._andriod = andridPhone;
         }
+
+        [MethodInject]
+        public void SetApplePhone(IPhone phone) 
+        {
+            this.phone = phone;
+        }
+
     }
 }

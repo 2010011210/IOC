@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
+      "projectUniqueName": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
       "projectName": "IOCDemoProject",
-      "projectPath": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
+      "projectPath": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
       "packagesPath": "C:\\Users\\wangcong\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\IOCDemo2\\IOC\\IOCDemoProject\\obj\\",
+      "outputPath": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wangcong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj": {
-              "projectPath": "D:\\GitHub\\IOCDemo2\\IOC\\IOCService\\IOCService.csproj"
+            "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\IOCService.csproj": {
+              "projectPath": "D:\\GitHub\\IOCDemo3\\IOC\\IOCService\\IOCService.csproj"
             }
           }
         }
