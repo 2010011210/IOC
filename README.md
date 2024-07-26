@@ -332,6 +332,11 @@ public void AddTransient(Type serviceType, Type implementationType, string short
 ~~~
 containerBuilder.RegisterType<Power>().As<IPower>().PropertiesAutowired(); // 2.属性注入
 IPower powerPhone = container.Resolve<IPower>();
+// builder.RegisterType<B>()
+       .PropertiesAutowired(
+         (propInfo, instance) => propInfo.PropertyType.Name.StartsWith("I"));
+// 官方文档
+// https://autofac.readthedocs.io/en/latest/register/prop-method-injection.html
 ~~~
 
 3. 一个接口多个实现
@@ -341,6 +346,16 @@ containerBuilder.RegisterType<OppoPhone>().As<IAndriod>().Named<IAndriod>("OppoP
 
 IAndriod xiaomiPhone = container.Resolve<IAndriod>();
 IAndriod oppoPhone = container.ResolveKeyed<IAndriod>("OppoPhone");
+~~~
+
+4. 方法注入
+~~~
+builder
+  .RegisterType<MyObjectType>()
+  .OnActivating(e => {
+    var dep = e.Context.Resolve<TheDependency>();
+    e.Instance.SetTheDependency(dep);
+  });
 ~~~
 
 4. 如果注册的类比较多，可以放到解除类Autofac.Module中的方法中，重写Load方法
