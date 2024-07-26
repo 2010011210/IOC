@@ -149,6 +149,117 @@ private object GetService(Type type)
 }
 ~~~ 
 ## 3.高阶的应用
-1. 一个服务接口注册多给类，如何实现？注册的时候， 加一个多业务标识进行区分  
-2. 通过属性注入
-3. 通过方法注入
+1. 通过属性注入
+2. 通过方法注入
+3. 一个服务接口注册多给类，如何实现？注册的时候， 加一个多业务标识进行区分  
+
+### 3.1 属性注入  
+如果对象的构造函数，没有给某个属性赋值，可以通过属性注入的方式实现。 献给需要注入的属性打一个标签，然后给有标签的属性注入对象。   
+
+1. 增加属性注入的特性 ，给需要注入的属性加上特性 
+~~~
+属性注入的类
+[AttributeUsage(AttributeTargets.Property)]
+public class PropertyInjectAttribute : Attribute
+{
+
+}
+
+public class Power : IPower
+{
+    public  IMobilePhone _mobilePhone { get; set; }
+    public IAndriod _andriod { get; set; }
+
+    [PropertyInject]  //给huaweiPhone加上特性的标签，属性注入
+    public IHarmonry huaweiPhone { get; set; }
+}
+
+~~~
+2. 构造的时候把有属性注入特性的属性过滤出来进行注入操作。 
+
+~~~
+// 3.1 获取需要属性注入的类型(属性带有PropertyInject特性的)
+var propertyTypes = type.GetProperties().Where(p => p.IsDefined(typeof(PropertyInjectAttribute), true));
+
+foreach (var propertyInfo in propertyTypes) 
+{
+    Type propertyType = propertyInfo.PropertyType;
+    Type propertyImplementType = typeDictionary[propertyType.FullName];
+    object propertyInstance = GetService(propertyImplementType);  // 属性的实例
+    propertyInfo.SetValue(objInstance, propertyInstance);    // objInstance是之前创建的对象，给对象objInstance的属性赋值
+}
+~~~  
+
+### 3.2 方法注入 
+有的属性是通过方法赋值的，比如下面的 。可以通过调用方法给phone赋值。大概的步骤是分两步：  
+1. 给需要触发的方法标识特性，过滤出需要触发的方法SetApplePhone，其他方法不要。
+2. 触发方法SetApplePhone
+~~~
+public class Power : IPower
+{
+    public IPhone phone { get; set; }
+
+    public void SetApplePhone(IPhone phone) 
+    {
+        this.phone = phone;
+    }
+
+    public string GetPhoneName(IPhone phone) 
+    {
+        return "苹果手机";
+    }
+}
+~~~  
+
+添加一个特性，标识到需要触发的方法上面 
+~~~
+[AttributeUsage(AttributeTargets.Method | AttributeTargets.All)]
+public class MethodInjectAttribute : Attribute
+{
+}
+
+public class Power : IPower
+{
+    public IPhone phone { get; set; }
+
+    [MethodInject]
+    public void SetApplePhone(IPhone phone) 
+    {
+        this.phone = phone;
+    }
+
+    public string GetPhoneName(IPhone phone) 
+    {
+        return "苹果手机";
+    }
+}
+~~~
+
+通过type.GetMethods()拿到所有的方法，然后判断方法是否带有MethodInject的特性m.IsDefined(typeof(MethodInjectAttribute), true)。   
+    method.Invoke(objInstance, methodParamList.ToArray());
+找到方法之后，获取方法的参数，构造所有参数放到列表中。然后触发方法method.Invoke(objInstance, methodParamList.ToArray());
+
+~~~
+MethodInfo[] allMethods = type.GetMethods();
+List<MethodInfo> injectMethods = allMethods.Where(m => m.IsDefined(typeof(MethodInjectAttribute), true)).ToList();
+foreach (var method in injectMethods) 
+{
+    List<object> methodParamList = new List<object>();
+    // 获取方法参数
+    ParameterInfo[] methodParameters = method.GetParameters();
+    foreach (var param in methodParameters) 
+    {
+        Type parameterType = param.ParameterType;
+        Type paramterImplementType = typeDictionary[parameterType.FullName]; 
+        object mParamInstance = GetService(paramterImplementType);  // 类型的构造函数可能还需要其他类型的参数，需要递归调用
+        methodParamList.Add(mParamInstance);
+    }
+    // 触发方法 ,把对象注入
+    method.Invoke(objInstance, methodParamList.ToArray());
+}
+
+~~~
+
+
+
+
