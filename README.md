@@ -261,6 +261,7 @@ foreach (var method in injectMethods)
 ~~~
 
 ### 3.3 多个服务注册到同一个接口  
+
 假如一个接口注册了多个服务类，注册的时候可以拼接一个别名 
 ~~~
 TomIOCServiceCollection service = new TomIOCServiceCollection();
