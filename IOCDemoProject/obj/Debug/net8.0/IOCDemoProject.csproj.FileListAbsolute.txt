@@ -36,3 +36,4 @@ D:\GitHub\IOCDemo3\IOC\IOCDemoProject\obj\Debug\net8.0\refint\IOCDemoProject.dll
 D:\GitHub\IOCDemo3\IOC\IOCDemoProject\obj\Debug\net8.0\IOCDemoProject.pdb
 D:\GitHub\IOCDemo3\IOC\IOCDemoProject\obj\Debug\net8.0\IOCDemoProject.genruntimeconfig.cache
 D:\GitHub\IOCDemo3\IOC\IOCDemoProject\obj\Debug\net8.0\ref\IOCDemoProject.dll
+D:\GitHub\IOCDemo3\IOC\IOCDemoProject\bin\Debug\net8.0\Autofac.dll

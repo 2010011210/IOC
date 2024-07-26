@@ -1,6 +1,8 @@
-﻿using IOCDemoProject.Interface;
+﻿using Autofac;
+using IOCDemoProject.Interface;
 using IOCDemoProject.Model;
 using IOCService;
+//using System.ComponentModel;
 
 namespace IOCDemoProject
 {
@@ -14,10 +16,7 @@ namespace IOCDemoProject
                 TomIOCServiceCollection service = new TomIOCServiceCollection();
                 service.AddTransient(typeof(IAndriod), typeof(OppoPhone), "Oppo");
                 service.AddTransient(typeof(IAndriod), typeof(XiaoMi));
-
                 service.AddTransient(typeof(IMobilePhone), typeof(NOKIAPhnoe));
-                
-                
                 service.AddTransient(typeof(IPhone), typeof(ApplePhone));
                 service.AddTransient(typeof(IHarmonry), typeof(HuaWeiPhone));
                 service.AddTransient(typeof(IPower), typeof(Power));
@@ -30,10 +29,27 @@ namespace IOCDemoProject
                 var huawei = service.GetService<IHarmonry>();
                 var apple = service.GetService<IPhone>();
                 var power = service.GetService<IPower>();
-                var oppo = service.GetService<IAndriod>("Oppo");    
+                var oppo = service.GetService<IAndriod>("Oppo");      
                 var xiaomi  = service.GetService<IAndriod>();
 
-                #region MyRegion
+                #region Autofac
+                ContainerBuilder containerBuilder = new ContainerBuilder();
+                //containerBuilder.RegisterModule<AutofacModel>();  //把注册部分写到AutofacModel类中。
+
+                containerBuilder.RegisterType<XiaoMi>().As<IAndriod>();
+                containerBuilder.RegisterType<OppoPhone>().As<IAndriod>().Named<IAndriod>("OppoPhone"); // 1. 一个接口多个实例
+                containerBuilder.RegisterType<NOKIAPhnoe>().As<IMobilePhone>();
+                containerBuilder.RegisterType<ApplePhone>().As<IPhone>();
+                containerBuilder.RegisterType<HuaWeiPhone>().As<IHarmonry>();
+                containerBuilder.RegisterType<Power>().As<IPower>().PropertiesAutowired(); // 2.属性注入
+
+                // build一个contain
+                IContainer container = containerBuilder.Build();
+                IAndriod xiaomiPhone = container.Resolve<IAndriod>();
+                IAndriod oppoPhone = container.ResolveKeyed<IAndriod>("OppoPhone");
+
+                IPower powerPhone = container.Resolve<IPower>();
+                IHarmonry huaweiPhone = container.Resolve<IHarmonry>();
 
                 #endregion
 

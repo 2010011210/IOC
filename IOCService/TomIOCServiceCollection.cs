@@ -73,7 +73,7 @@ namespace IOCService
             {
                 Type paraType = item.ParameterType;
                 Type paramTagerType = typeDictionary[paraType.FullName];
-                var target = GetService(paramTagerType, null);         // 构造函数的参数类型的构造函数，可能还需要参数
+                var target = GetService(paramTagerType);         // 构造函数的参数类型的构造函数，可能还需要参数
                 parametersList.Add(target);
             }
 

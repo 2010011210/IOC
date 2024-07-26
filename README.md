@@ -262,6 +262,7 @@ foreach (var method in injectMethods)
 
 ### 3.3 多个服务注册到同一个接口  
 
+
 假如一个接口注册了多个服务类，注册的时候可以拼接一个别名 
 ~~~
 TomIOCServiceCollection service = new TomIOCServiceCollection();
@@ -314,5 +315,58 @@ public void AddTransient(Type serviceType, Type implementationType, string short
 
 ~~~
 
+## 4. Autofac 
+
+1. 普通构造函数注入  
+~~~
+ ContainerBuilder containerBuilder = new ContainerBuilder();
+ //containerBuilder.RegisterModule<AutofacModel>();  //把注册部分写到AutofacModel类中。
+ containerBuilder.RegisterType<NOKIAPhnoe>().As<IMobilePhone>();
+ containerBuilder.RegisterType<ApplePhone>().As<IPhone>();
+
+ IContainer container = containerBuilder.Build();
+
+ IHarmonry huaweiPhone = container.Resolve<IHarmonry>();
+~~~
+2. 属性注入
+~~~
+containerBuilder.RegisterType<Power>().As<IPower>().PropertiesAutowired(); // 2.属性注入
+IPower powerPhone = container.Resolve<IPower>();
+~~~
+
+3. 一个接口多个实现
+~~~
+containerBuilder.RegisterType<XiaoMi>().As<IAndriod>();
+containerBuilder.RegisterType<OppoPhone>().As<IAndriod>().Named<IAndriod>("OppoPhone"); // 
+
+IAndriod xiaomiPhone = container.Resolve<IAndriod>();
+IAndriod oppoPhone = container.ResolveKeyed<IAndriod>("OppoPhone");
+~~~
+
+4. 如果注册的类比较多，可以放到解除类Autofac.Module中的方法中，重写Load方法
+~~~
+public class AutofacModel:Autofac.Module
+{
+    protected override void Load(ContainerBuilder containerBuilder)
+    {
+        containerBuilder.RegisterType<XiaoMi>().As<IAndriod>();
+        containerBuilder.RegisterType<OppoPhone>().As<IAndriod>().Named<IAndriod>("OppoPhone");
+        containerBuilder.RegisterType<NOKIAPhnoe>().As<IMobilePhone>();
+        containerBuilder.RegisterType<ApplePhone>().As<IPhone>();
+        containerBuilder.RegisterType<HuaWeiPhone>().As<IHarmonry>();
+        containerBuilder.RegisterType<Power>().As<IPower>().PropertiesAutowired(); //属性注入
+    }
+}
+
+注入的时候直接RegisterModule<AutofacModel>()；
+ContainerBuilder containerBuilder = new ContainerBuilder();
+containerBuilder.RegisterModule<AutofacModel>();  //把注册部分写到AutofacModel类中。
+IContainer container = containerBuilder.Build();
+
+~~~
+
+## 5.其他问题 
+1. 生命周期，瞬时transient，单例Single，作用域Scope
+2. 构造函数时值类型，如何赋值
 
 

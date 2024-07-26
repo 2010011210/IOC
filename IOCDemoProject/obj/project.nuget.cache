@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9b+pCWc4f4s=",
+  "dgSpecHash": "7Nx/ymQcsCc=",
   "success": true,
   "projectFilePath": "D:\\GitHub\\IOCDemo3\\IOC\\IOCDemoProject\\IOCDemoProject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\wangcong\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
+    "C:\\Users\\wangcong\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
