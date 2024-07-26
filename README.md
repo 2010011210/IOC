@@ -260,6 +260,58 @@ foreach (var method in injectMethods)
 
 ~~~
 
+### 3.3 多个服务注册到同一个接口  
+假如一个接口注册了多个服务类，注册的时候可以拼接一个别名 
+~~~
+TomIOCServiceCollection service = new TomIOCServiceCollection();
+service.AddTransient(typeof(IAndriod), typeof(OppoPhone), "Oppo");  // 
+service.AddTransient(typeof(IAndriod), typeof(XiaoMi));
+
+var oppo = service.GetService<IAndriod>("Oppo");    // 取出服务类的时候，
+var xiaomi  = service.GetService<IAndriod>();
+~~~
+
+注册的时候key值后面拼接一个别名，取的时候也把别名拼接上
+~~~
+写一个方法固定返回注册的key值
+private string GetKey(Type type, string shortName) 
+{
+    if (string.IsNullOrEmpty(shortName))
+    {
+        return type.FullName;
+    }
+    else 
+    {
+        return $"{type.FullName}_{shortName}";
+    }
+}
+
+/// <summary>
+/// 注册服务， 把抽象和具体的映射关系保存起来
+/// </summary>
+/// <param name="serviceType"></param>
+/// <param name="implementationType"></param>
+/// <exception cref="NotImplementedException"></exception>
+public void AddTransient(Type serviceType, Type implementationType, string shortName = "")
+{
+    string key  = GetKey(serviceType, shortName);  //key是拼接别名shortName的
+    typeDictionary[key] = implementationType;
+}
+
+ /// <summary>
+ /// 获取服务实例
+ /// </summary>
+ /// <typeparam name="T"></typeparam>
+ /// <returns></returns>
+ /// <exception cref="NotImplementedException"></exception>
+ public T GetService<T>(string shortName)
+ {
+     Console.WriteLine($"GetService:{typeof(T).FullName}");
+     Type type = typeDictionary[GetKey(typeof(T), shortName)]; // key值也是拼接别名的
+     return (T)this.GetService(type);
+ }
+
+~~~
 
 
 

@@ -8,8 +8,9 @@ namespace IOCService
 {
     public interface ITomIOCServiceCollection
     {
-        void AddTransient(Type serviceType, Type implementationType);
+        void AddTransient(Type serviceType, Type implementationType, string shortName);
         T GetService<T>();
+        T GetService<T>(string shortName);
 
     }
 }

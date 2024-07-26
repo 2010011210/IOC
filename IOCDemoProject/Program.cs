@@ -12,8 +12,12 @@ namespace IOCDemoProject
             try
             {
                 TomIOCServiceCollection service = new TomIOCServiceCollection();
-                service.AddTransient(typeof(IMobilePhone), typeof(NOKIAPhnoe));
+                service.AddTransient(typeof(IAndriod), typeof(OppoPhone), "Oppo");
                 service.AddTransient(typeof(IAndriod), typeof(XiaoMi));
+
+                service.AddTransient(typeof(IMobilePhone), typeof(NOKIAPhnoe));
+                
+                
                 service.AddTransient(typeof(IPhone), typeof(ApplePhone));
                 service.AddTransient(typeof(IHarmonry), typeof(HuaWeiPhone));
                 service.AddTransient(typeof(IPower), typeof(Power));
@@ -26,8 +30,15 @@ namespace IOCDemoProject
                 var huawei = service.GetService<IHarmonry>();
                 var apple = service.GetService<IPhone>();
                 var power = service.GetService<IPower>();
+                var oppo = service.GetService<IAndriod>("Oppo");    
+                var xiaomi  = service.GetService<IAndriod>();
+
+                #region MyRegion
+
+                #endregion
+
             }
-            catch(Exception e) 
+            catch (Exception e) 
             {
                 Console.WriteLine($"exception:{e.Message}");
             }

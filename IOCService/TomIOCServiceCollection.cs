@@ -11,17 +11,28 @@ namespace IOCService
     {
         private Dictionary<string, Type> typeDictionary = new Dictionary<string, Type>();
 
+        private string GetKey(Type type, string shortName) 
+        {
+            if (string.IsNullOrEmpty(shortName))
+            {
+                return type.FullName;
+            }
+            else 
+            {
+                return $"{type.FullName}_{shortName}";
+            }
+        }
+
         /// <summary>
         /// 注册服务， 把抽象和具体的映射关系保存起来
         /// </summary>
         /// <param name="serviceType"></param>
         /// <param name="implementationType"></param>
         /// <exception cref="NotImplementedException"></exception>
-        public void AddTransient(Type serviceType, Type implementationType)
+        public void AddTransient(Type serviceType, Type implementationType, string shortName = "")
         {
-            Console.WriteLine($"AddTransient:{serviceType.FullName}");
-            // typeDictionary.Add(serviceType.FullName, implementationType);
-            typeDictionary[serviceType.FullName] = implementationType;
+            string key  = GetKey(serviceType, shortName);  //key是拼接别名shortName的
+            typeDictionary[key] = implementationType;
         }
 
         /// <summary>
@@ -30,33 +41,18 @@ namespace IOCService
         /// <typeparam name="T"></typeparam>
         /// <returns></returns>
         /// <exception cref="NotImplementedException"></exception>
+        public T GetService<T>(string shortName)
+        {
+            Console.WriteLine($"GetService:{typeof(T).FullName}");
+            Type type = typeDictionary[GetKey(typeof(T), shortName)]; // key值也是拼接别名的
+            return (T)this.GetService(type);
+        }
+
         public T GetService<T>()
         {
-            #region MyRegion
-            //// 1.获取构造函数
-            //var contructorArr = type.GetConstructors();
-            //// 获取参数最多的那一个构造函数,如果要获取规定的构造函数（需要用特性标注）
-            //var contructor = contructorArr.OrderByDescending(i=> i.GetParameters().Length).FirstOrDefault();
-
-            //// 2.获取构造函数的参数
-            //ParameterInfo[] parameters = contructor.GetParameters();
-            //List<object> parametersArr = new List<object>();
-            //foreach (var item in parameters)
-            //{
-            //    Type paraType = item.ParameterType;
-            //    Type paramTagerType = typeDictionary[paraType.FullName];
-            //    var target = Activator.CreateInstance(paramTagerType);         // 构造函数的参数类型的构造函数，可能还需要参数
-            //    parametersArr.Add(target);
-            //}
-
-            //var result = (T)Activator.CreateInstance(type, parameters);
-            //return result;
-            #endregion
             Console.WriteLine($"GetService:{typeof(T).FullName}");
             Type type = typeDictionary[typeof(T).FullName];
             return (T)this.GetService(type);
-
-            
         }
 
         private object GetService(Type type) 
@@ -77,7 +73,7 @@ namespace IOCService
             {
                 Type paraType = item.ParameterType;
                 Type paramTagerType = typeDictionary[paraType.FullName];
-                var target = GetService(paramTagerType);         // 构造函数的参数类型的构造函数，可能还需要参数
+                var target = GetService(paramTagerType, null);         // 构造函数的参数类型的构造函数，可能还需要参数
                 parametersList.Add(target);
             }
 
