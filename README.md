@@ -380,6 +380,192 @@ IContainer container = containerBuilder.Build();
 
 ~~~
 
+5. 生命周期  
+
+默认时瞬时的，每次都是新建一个实例  builder.RegisterType<Worker>().InstancePerDependency(); 。不填InstancePerDependency，默认是InstancePerDependency。
+~~~
+var builder = new ContainerBuilder();
+
+// This...
+builder.RegisterType<Worker>();
+
+// ...is the same as this:
+builder.RegisterType<Worker>().InstancePerDependency(); //
+
+using(var scope = container.BeginLifetimeScope())
+{
+  for(var i = 0; i < 100; i++)
+  {
+    // Every one of the 100 Worker instances
+    // resolved in this loop will be brand new.
+    var w = scope.Resolve<Worker>();
+    w.DoWork();
+  }
+}
+~~~
+
+单例，对象只生成一次，每次取的都是同一个。  builder.RegisterType<HuaWeiPhone>().As<IHarmonry>().SingleInstance();
+~~~
+var builder = new ContainerBuilder();
+builder.RegisterType<HuaWeiPhone>().As<IHarmonry>().SingleInstance();
+
+using(var scope1 = container.BeginLifetimeScope())
+{
+  for(var i = 0; i < 100; i++)
+  {
+    // Every time you resolve this from within this
+    // scope you'll get the same instance.
+    IHarmonry huaweiPhone = scope1.Resolve<IHarmonry>();
+  }
+}
+~~~
+
+作用域，可以理解为，作用域范围内，是单例的。  builder.RegisterType<Worker>().InstancePerMatchingLifetimeScope("my-request");
+~~~
+var builder = new ContainerBuilder();
+builder.RegisterType<Worker>().InstancePerMatchingLifetimeScope("my-request");
+
+// Create the lifetime scope using the tag.
+using(var scope1 = container.BeginLifetimeScope("my-request"))
+{
+  for(var i = 0; i < 100; i++)
+  {
+    var w1 = scope1.Resolve<Worker>();
+    using(var scope2 = scope1.BeginLifetimeScope())
+    {
+      var w2 = scope2.Resolve<Worker>();
+
+      // w1 and w2 are always the same object
+      // instance because the component is per-matching-lifetime-scope,
+      // so it's effectively a singleton within the
+      // named scope.
+    }
+  }
+}
+
+// Create another lifetime scope using the tag.
+using(var scope3 = container.BeginLifetimeScope("my-request"))
+{
+  for(var i = 0; i < 100; i++)
+  {
+    // w3 will be DIFFERENT than the worker resolved in the
+    // earlier tagged lifetime scope.
+    var w3 = scope3.Resolve<Worker>();
+    using(var scope4 = scope3.BeginLifetimeScope())
+    {
+      var w4 = scope4.Resolve<Worker>();
+
+      // w3 and w4 are always the same object because
+      // they're in the same tagged scope, but they are
+      // NOT the same as the earlier workers (w1, w2).
+    }
+  }
+}
+~~~
+
+6. Autofac通过配置文件注入， 官方文档：https://autofac.readthedocs.io/en/latest/configuration/xml.html#quick-start
+~~~
+json文件
+{
+  "defaultAssembly": "Autofac.Example.Calculator",
+  "components": [{
+    "type": "Autofac.Example.Calculator.Addition.Add, Autofac.Example.Calculator.Addition",
+    "services": [{
+      "type": "Autofac.Example.Calculator.Api.IOperation"
+    }],
+    "injectProperties": true
+  }, {
+    "type": "Autofac.Example.Calculator.Division.Divide, Autofac.Example.Calculator.Division",
+    "services": [{
+      "type": "Autofac.Example.Calculator.Api.IOperation"
+    }],
+    "parameters": {
+      "places": 4
+    }
+  }]
+}
+
+// Add the configuration to the ConfigurationBuilder.
+var config = new ConfigurationBuilder();
+// config.AddJsonFile comes from Microsoft.Extensions.Configuration.Json
+// config.AddXmlFile comes from Microsoft.Extensions.Configuration.Xml
+config.AddJsonFile("autofac.json");
+
+// Register the ConfigurationModule with Autofac.
+var module = new ConfigurationModule(config.Build());
+var builder = new ContainerBuilder();
+builder.RegisterModule(module);
+
+
+~~~
+
+7. WebApi使用AutoFac  
+~~~
+public static void Main(string[] args)
+{
+    var builder = WebApplication.CreateBuilder(args);
+
+    // Add services to the container.
+
+    builder.Services.AddControllers();
+    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen();
+    // 自带的DI
+    //builder.Services.AddSingleton<ICompany, CompanyService>(); // 示例：单例模式  
+    //builder.Services.AddTransient<ICompany, CompanyService>(); // 示例：瞬时模式  
+    //builder.Services.AddScoped<ICompany, CompanyService>();    // 示例：作用域模式  
+    /// Autofac的使用
+    builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+    builder.Host.ConfigureContainer<ContainerBuilder>(builder => 
+    {
+        builder.RegisterType<CompanyService>().As<ICompany>();  // Autofac依赖注入
+    });
+
+    var app = builder.Build();
+
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+    }
+
+    app.UseHttpsRedirection();
+
+    app.UseAuthorization();
+
+    app.MapControllers();
+
+    app.Run();
+}
+
+
+~~~
+然后就可以在controller中使用了注入的服务类Company了
+~~~
+[ApiController]
+[Route("[controller]")]
+public class CompanyController : ControllerBase
+{
+    private ICompany _company;  // 构造函数注入
+
+    public CompanyController(ICompany company) 
+    {
+        this._company = company;
+    }
+
+    [HttpGet]
+    public string GetName(string address) 
+    {
+        return _company.GetName(address);
+    }
+}
+~~~
+
+
+
 ## 5.其他问题 
 1. 生命周期，瞬时transient，单例Single，作用域Scope
 2. 构造函数时值类型，如何赋值

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOCDemoProject", "IOCDemoProject.csproj", "{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOCDemoProject", "IOCDemoProject.csproj", "{2192CC07-EF9E-448F-A4A3-702FCFB18E1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOCService", "..\IOCService\IOCService.csproj", "{D100AA3E-6D0D-496A-9208-C81ED5D54B29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOCService", "..\IOCService\IOCService.csproj", "{D100AA3E-6D0D-496A-9208-C81ED5D54B29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiProj", "..\WebApi\WebApiProj\WebApiProj.csproj", "{0EA9A2A9-F015-467D-A175-03E4B71BEF8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D100AA3E-6D0D-496A-9208-C81ED5D54B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D100AA3E-6D0D-496A-9208-C81ED5D54B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D100AA3E-6D0D-496A-9208-C81ED5D54B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA9A2A9-F015-467D-A175-03E4B71BEF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA9A2A9-F015-467D-A175-03E4B71BEF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA9A2A9-F015-467D-A175-03E4B71BEF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA9A2A9-F015-467D-A175-03E4B71BEF8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
